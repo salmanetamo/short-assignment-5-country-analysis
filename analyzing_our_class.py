@@ -26,7 +26,7 @@ for line in file:
         cohort_1[student_data_as_list[1]] += 1
     else:
         cohort_2[student_data_as_list[1]] += 1
-
+file.close()
 
 # Function to get sole representatives
 def get_sole_representatives():
